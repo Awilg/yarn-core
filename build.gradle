@@ -1,5 +1,6 @@
 buildscript {
 	repositories {
+		mavenLocal()
 		jcenter()
 	}
 
@@ -12,7 +13,7 @@ apply plugin: 'kotlin'
 apply plugin: 'application'
 apply plugin: 'maven-publish'
 
-group 'com.yarn.services'
+group 'com.yarn'
 version '0.0.1'
 
 sourceSets {
