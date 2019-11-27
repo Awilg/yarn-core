@@ -1,17 +1,17 @@
-name: Publish yarn-core package
-# This workflow is triggered on pushes to the repository.
-on: push
-
-jobs:
-  checkout:
-    runs-on: [ubuntu-latest]
-    steps:
-      - uses: actions/checkout@v1
-  publish:
-    runs-on: [ubuntu-latest]
-    steps:
-      - name: Publish yarn-core package
-        uses: actions/upload-artifact@v1.0.0
-        with:
-          name: yarn-core
-          path: .
+#name: Publish yarn-core package
+## This workflow is triggered on pushes to the repository.
+#on: push
+#
+#jobs:
+#  checkout:
+#    runs-on: [ubuntu-latest]
+#    steps:
+#      - uses: actions/checkout@v1
+#  publish:
+#    runs-on: [ubuntu-latest]
+#    steps:
+#      - name: Publish yarn-core package
+#        uses: actions/upload-artifact@v1.0.0
+#        with:
+#          name: yarn-core
+#          path: .
